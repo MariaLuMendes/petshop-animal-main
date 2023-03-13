@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body {
+    background-color: #fffcff;
+    font-family: 'Nova Square', cursive;    }
+    
+    nav {
+        background: #fffcff;
+        display: flex;
+        width: 100vw;
+        height: 10vh;
+        position: fixed;
+        z-index: 10;
+    }
+
+    nav img {
+        margin:15px 0px 0px 10px;
+    }
+
+nav ul {
+	list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	width: 92%;
+}
+
+nav ul li {
+    margin: 10px 1% 10px 1%;
+	
+    background: #fff;
+    width:18%;
+	text-align: center;
+}
+
+nav ul li a {
+	color:#333;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	transition: all 0.6s;
+
+	display: block;
+    width: 100%;
+    margin: 6px;
+}
+
+nav ul li a:hover {
+	color: white;
+	background: #ffc5ff;
+	text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.amigo{
+    margin-top: 60px;
+    background: rgb(255,253,187);
+	background: linear-gradient(63deg, rgba(255,253,187,1) 5%, rgba(255,156,253,1) 48%, rgba(111,231,255,1) 100%);
+	width: 100vw;
+	align-items: center;
+}
+
+.bichos {
+	width: 300px;
+	height: 400px;
+	margin-bottom: 30px;
+	background-color: #f1f1f1;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.bichos img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.bichos h3 {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bichos p {
+	margin-bottom: 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+.ajuda{
+    background: rgb(255,253,187);
+	background: linear-gradient(63deg, rgba(255,253,187,1) 5%, rgba(255,156,253,1) 48%, rgba(111,231,255,1) 100%);
+	width: 95vw;
+	align-items: center;  
+}
